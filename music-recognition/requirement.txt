@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+####python和pytorch环境安装可参考博客：https://blog.csdn.net/qq_34904125/article/details/134563770
+####python==3.7  在anconda中安装命令可以先建一个虚拟环境conda create -n audio python==3.7
+####镜像源加速安装 pip install -r requirement.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+####pytorch深度学习版本大于等于1.7.1即可，conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch
+####如果pytorch安装1.7.1安装进度条长时间不动，可以直接网址下载https://conda.anaconda.org/pytorch/win-64/pytorch-1.7.1-py3.7_cuda110_cudnn8_0.tar.bz2
+
+
+numpy ==1.21.1
+matplotlib==3.5.3
+Pillow==9.5.0
+IPython==7.34.0
+tqdm==4.66.1
+soundfile==0.12.1
+librosa==0.10.1
+PyQt5==5.15.9
+PyQt5-tools==5.15.9.3.3
